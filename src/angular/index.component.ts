@@ -4,11 +4,11 @@ import e from '../event-bus'
 @Component({
   selector: 'AngularApp',
   template: `
-		<div style="margin-top: 100px;">
+	<div style="margin-top: 100px;">
       <h1>This was written in Angular</h1>
       <p>{{message}}</p>
-		</div>
-	`,
+	</div>
+  `,
 })
 export default class AngularApp {
   message: string = "Message from React should appear here 😱"
